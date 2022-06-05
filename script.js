@@ -1,4 +1,5 @@
 // QUESTION-1 [movie CLASS]
+---------------------------
 
 class movie {
    constructor(title,studio,rating,arr)
@@ -34,7 +35,7 @@ console.log(arr);
 
 console.log(moviedetails.getPG(arr));
 
-
+-------------------------------------------------------------------------------------------------
 // OUTPUT
 
 ​Array(5) [ {…}, {…}, {…}, {…}, {…} ]
@@ -58,9 +59,11 @@ Array(3) [ {…}, {…}, {…} ]
 2: Object { title: "Dr Strange", studio: "Magma Flow Productions", rating: "PG" }
 
 
-
+---------------------------------------------------------------------------------------------
 
 // QUESTION-2 [CIRCLE CLASS]
+--------------------------------
+
 
 class Circle {
     constructor(radius, color) 
@@ -109,7 +112,7 @@ class Circle {
     console.log(myCircle.Area())
     console.log(myCircle.Circumference())
   
-
+---------------------------------------------------------------------------------
 
 // OUTPUT
 
@@ -122,9 +125,9 @@ yellow
 31415.926535897932 
 628.3185307179587
 
-
+-----------------------------------------------------------------------------------
 // QUESTION-3 [PERSON CLASS]
-
+------------------------------
 
 class person
 { constructor(department,Name,gender,section,age,yoexperiance,qualification,skill)
@@ -164,7 +167,7 @@ console.log(obj4.getdetails());
 let obj5=new person("BILLING","SANTHOSH","MALE","BILLING CONTROLLER",35,10,"B-TECH","TALLY AND EXCELL");
 console.log(obj5.getdetails());
 
-
+-------------------------------------------------------------------------------------------
 
 // OUTPUT
 
@@ -222,9 +225,10 @@ SECTION-BILLING CONTROLLER
 YEAR OF EXPERIANCE-10
 SKILL WHICH EMPLOYEE HAVE-TALLY AND EXCELL 
 
-
+----------------------------------------------------------------------------------------
 
 // QUESTION -4 [Calculation of uber price]
+--------------------------------------------
 
 class uber{
 constructor(dist,cost_of_food) {
@@ -252,9 +256,11 @@ var secondorder= new uber(10,470);
 secondorder.getPrice();
 secondorder.discount();
 
+--------------------------------------------------------------------------------------------
 // OUTPUT
 
 Total price is- 200                           
 After discount the amount is 150              
 Total price is- 500                           
 After discount the amount is 375
+--------------------------------------------------------------------------------------------
